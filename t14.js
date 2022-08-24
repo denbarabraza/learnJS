@@ -10,7 +10,7 @@ function showPrimes(n) {
  }
  
  function isPrime(i) {
-	for (let j = 2; j < i; i++) {
+	for (let j = 2; j < i; j++) {
 	  if (i % j == 0) return false;
 	}
  
